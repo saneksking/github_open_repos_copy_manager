@@ -9,16 +9,16 @@ from tools.printer import StringDecorator
 
 
 class AppManager:
-    _printer = StringDecorator()
-    _config = Config()
+    printer = StringDecorator()
+    config = Config()
 
     @classmethod
     def show_head(cls):
-        cls._printer.string_decorate()
-        cls._printer.string_decorate(cls._config.app_name)
-        cls._printer.string_decorate()
+        cls.printer.string_decorate()
+        cls.printer.string_decorate(cls.config.app_name, symbol='-')
+        cls.printer.string_decorate()
 
     @classmethod
     def show_footer(cls):
-        cls._printer.string_decorate(cls._config.help_url)
-        cls._printer.string_decorate(cls._config.copyright_)
+        cls.printer.string_decorate(cls.config.help_url)
+        cls.printer.string_decorate(cls.config.copyright_, symbol='=')
