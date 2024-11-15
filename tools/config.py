@@ -6,6 +6,6 @@
 # --------------------------------------------------------
 
 class Config:
-    app_name = 'GitHub Copy Manager'
+    app_name = 'GitHub Open Repos Copy Manager'
     help_url = 'https://github.com/saneksking/'
     copyright_ = 'Copyright © 2024, A.A. Suvorov. All rights reserved.'

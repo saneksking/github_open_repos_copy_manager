@@ -1,14 +1,14 @@
-# GitHub Copy Manager
+# GitHub Open Repos Copy Manager
 
 ---
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/saneksking/github_copy_manager)](https://github.com/saneksking/github_copy_manager/)
-![GitHub top language](https://img.shields.io/github/languages/top/saneksking/github_copy_manager)
-[![GitHub](https://img.shields.io/github/license/saneksking/github_copy_manager)](https://github.com/saneksking/github_copy_manager/blob/master/LICENSE)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/saneksking/github_open_repos_copy_manager)](https://github.com/saneksking/github_open_repos_copy_manager/)
+![GitHub top language](https://img.shields.io/github/languages/top/saneksking/github_open_repos_copy_manager)
+[![GitHub](https://img.shields.io/github/license/saneksking/github_open_repos_copy_manager)](https://github.com/saneksking/github_open_repos_copy_manager/blob/master/LICENSE)
 
 ---
 
-**GitHub Copy Manager** - Manager for cloning open repositories.
+**GitHub Open Repos Copy Manager** - Manager for cloning open repositories from every GitHub users.
 
 ---
 
