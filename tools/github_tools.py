@@ -35,7 +35,7 @@ class GitHubTolls:
 
     def clone_repos(self, folder_path):
         self._string_decorator.string_decorate(
-            text=f'Name: {self.username} Repositories: {len(self.get_repo_names())}',
+            text=f'Name: {self.username} | Repositories: {len(self.get_repo_names())}',
             symbol='|'
         )
         self._string_decorator.string_decorate()
@@ -45,3 +45,4 @@ class GitHubTolls:
         for repo in repos:
             path = folder_path + '/' + repo
             os.system(f'git clone https://github.com/{self.username}/{repo}.git {path}')
+            self._string_decorator.string_decorate()
